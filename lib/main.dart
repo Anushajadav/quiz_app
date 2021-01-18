@@ -32,8 +32,6 @@ class _State extends State<MyApp> {
       print("End of question");
     } else {
       if (questions.questionBank[questionNumber].answer == choice) {
-       // print(questions.questionBank[questionNumber].answer);
-       // print(choice);
 
         setState(() {
           currentScore++;
